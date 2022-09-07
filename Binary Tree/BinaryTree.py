@@ -9,10 +9,16 @@ class TreeNode:
 
 
 newBT = TreeNode("Drinks")  # o(1)
-
-# pre-order Traverse
 leftChild = TreeNode("Hot")  # o(1)
 rightChild = TreeNode("Colds")  # o(1)
+tea = TreeNode("Tea")
+coffee = TreeNode("Cofee")
+leftChild.leftChild = coffee
+leftChild.rightChild = tea
+newBT.leftChild = leftChild
+newBT.rightChild = rightChild
+# pre-order Traverse
+
 
 newBT.leftChild = leftChild
 newBT.rightChild = rightChild
@@ -51,4 +57,11 @@ def levelOrderTraversal(rootNode):
         customQ.enqueue(rootNode)
         while not (customQ.isEmpty()):
             root = customQ.dequeue()
-            print(root.value.data)
+            print(root.value.data)  # value is a node
+            if (root.value.leftChild is not None):
+                customQ.enqueue(root.value.leftChild)
+            if (root.value.rightChild is not None):
+                customQ.enqueue(root.value.rightChild)
+
+
+levelOrderTraversal(newBT)
