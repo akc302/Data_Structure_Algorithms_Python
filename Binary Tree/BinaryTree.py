@@ -7,4 +7,4 @@ class TreeNode:
 newBT = TreeNode("Drinks")   #o(1)
 
 #pre-order Traverse
-hey
+print("hey")
