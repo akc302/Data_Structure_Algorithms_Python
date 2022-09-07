@@ -123,6 +123,13 @@ def deleteNode(rootNode, value):
     return rootNode
 
 
+def deleteEntireBST(rootNode):
+    rootNode.data = None
+    rootNode.leftChild = None
+    rootNode.rightChild = None
+    return "the BST deleted!"
+
+
 newBST = BSTNode(None)
 print(insertNode(newBST, 55))
 print(insertNode(newBST, 70))
@@ -136,3 +143,4 @@ print(newBST.rightChild.data)
 searchNode(newBST, 11)
 deleteNode(newBST, 70)
 levelOrderTraverse(newBST)  # checked the item 70 is deleted from BST!
+print(deleteEntireBST(newBST))
