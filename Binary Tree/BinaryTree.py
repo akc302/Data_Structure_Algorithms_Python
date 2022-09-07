@@ -12,16 +12,14 @@ newBT = TreeNode("Drinks")  # o(1)
 leftChild = TreeNode("Hot")  # o(1)
 rightChild = TreeNode("Colds")  # o(1)
 tea = TreeNode("Tea")
-coffee = TreeNode("Cofee")
+coffee = TreeNode("Coffee")
 leftChild.leftChild = coffee
 leftChild.rightChild = tea
 newBT.leftChild = leftChild
 newBT.rightChild = rightChild
+
+
 # pre-order Traverse
-
-
-newBT.leftChild = leftChild
-newBT.rightChild = rightChild
 
 
 def preOrderTraversal(rootNode):  # o(n)
@@ -64,4 +62,14 @@ def levelOrderTraversal(rootNode):
                 customQ.enqueue(root.value.rightChild)
 
 
+# delete binary tree, if we can delete the head then garbage collector will collect rest of the nodes
+
+def deleteBT(rootNode):
+    rootNode.data = None
+    rootNode.leftChild = None
+    rootNode.rightChild = None
+    return "deleted"
+
+
+deleteBT(newBT)
 levelOrderTraversal(newBT)
