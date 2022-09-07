@@ -1,3 +1,6 @@
+import Queue.QueueLinkedList as queue
+
+
 class TreeNode:
     def __init__(self, data):
         self.data = data
@@ -27,6 +30,7 @@ def preOrderTraversal(rootNode):  # o(n)
 
 # inOrder traversal in a binary Tree
 
+
 def inOrderTraversal(rootNode):
     if not rootNode:
         return
@@ -34,7 +38,17 @@ def inOrderTraversal(rootNode):
     print(rootNode.data)
     inOrderTraversal(rootNode.rightChild)
 
+
 # we can do the Post Order!
 # left node - right node - root
 
 # level Order Binary Tree
+def levelOrderTraversal(rootNode):
+    if not rootNode:
+        return
+    else:
+        customQ = queue.Queue()
+        customQ.enqueue(rootNode)
+        while not (customQ.isEmpty()):
+            root = customQ.dequeue()
+            print(root.value.data)
