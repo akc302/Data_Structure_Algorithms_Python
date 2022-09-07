@@ -27,6 +27,23 @@ class Stack:
             self.list.append(value)
             return "the element is successfully added"
 
+    def pop(self):
+        if self.isEmpty():
+            return "the stack is empty"
+        else:
+            return self.list.pop()
+
+    def peek(self):
+        if self.isEmpty():
+            return "the stack is empty"
+        else:
+            return self.list.pop(0)
+
+    # delete entire stack
+
+    def delete(self):
+        self.list = None
+
 
 cS = Stack(4)
 print(cS.isEmpty())
