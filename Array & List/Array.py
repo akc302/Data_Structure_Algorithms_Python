@@ -8,7 +8,7 @@ li = [1,2,3,4]
 ar1.fromlist(li)
 print(ar1) #its auto extended with the list input
 print(ar1.index(2)) #find the index of value 2
-
+print("Chris is coding!")
 print(ar1.count(1))
 
 li1 = [1,3,5,7,11]
