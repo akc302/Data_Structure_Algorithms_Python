@@ -9,3 +9,4 @@
 New structured practice lives in `daily_dsa/`.
 
 - Day 1: Arrays + Hash Map — Two Sum
+- Day 2: Arrays + Hash Map — Valid Anagram
