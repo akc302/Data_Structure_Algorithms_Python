@@ -23,3 +23,10 @@ Each solution should include:
 8. Dynamic programming
 9. Greedy algorithms
 10. Backtracking
+
+## Completed Practice
+
+| Day | Topic | Problem | Solution | Tests |
+| --- | --- | --- | --- | --- |
+| 1 | Arrays + Hash Map | Two Sum | `arrays/two_sum.py` | `tests/test_two_sum.py` |
+| 2 | Arrays + Hash Map | Valid Anagram | `arrays/valid_anagram.py` | `tests/test_valid_anagram.py` |
