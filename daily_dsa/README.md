@@ -30,3 +30,4 @@ Each solution should include:
 | --- | --- | --- | --- | --- |
 | 1 | Arrays + Hash Map | Two Sum | `arrays/two_sum.py` | `tests/test_two_sum.py` |
 | 2 | Arrays + Hash Map | Valid Anagram | `arrays/valid_anagram.py` | `tests/test_valid_anagram.py` |
+| 3 | Arrays + Hash Map | Top K Frequent Elements | `arrays/top_k_frequent.py` | `tests/test_top_k_frequent.py` |
