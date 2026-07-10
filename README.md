@@ -13,3 +13,4 @@ New structured practice lives in `daily_dsa/`.
 - Day 3: Arrays + Hash Map — Top K Frequent Elements
 - Day 4: Arrays + Hash Map — Group Anagrams
 - Day 5: Two Pointers — Valid Palindrome
+- Day 6: Sliding Window — Longest Substring Without Repeating Characters
