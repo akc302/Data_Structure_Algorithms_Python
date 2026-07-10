@@ -33,3 +33,4 @@ Each solution should include:
 | 3 | Arrays + Hash Map | Top K Frequent Elements | `arrays/top_k_frequent.py` | `tests/test_top_k_frequent.py` |
 | 4 | Arrays + Hash Map | Group Anagrams | `arrays/group_anagrams.py` | `tests/test_group_anagrams.py` |
 | 5 | Two Pointers | Valid Palindrome | `two_pointers/valid_palindrome.py` | `tests/test_valid_palindrome.py` |
+| 6 | Sliding Window | Longest Substring Without Repeating Characters | `sliding_window/longest_substring_without_repeating.py` | `tests/test_longest_substring_without_repeating.py` |
