@@ -34,3 +34,4 @@ Each solution should include:
 | 4 | Arrays + Hash Map | Group Anagrams | `arrays/group_anagrams.py` | `tests/test_group_anagrams.py` |
 | 5 | Two Pointers | Valid Palindrome | `two_pointers/valid_palindrome.py` | `tests/test_valid_palindrome.py` |
 | 6 | Sliding Window | Longest Substring Without Repeating Characters | `sliding_window/longest_substring_without_repeating.py` | `tests/test_longest_substring_without_repeating.py` |
+| 7 | Stack | Valid Parentheses | `stack/valid_parentheses.py` | `tests/test_valid_parentheses.py` |
