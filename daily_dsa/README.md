@@ -35,3 +35,6 @@ Each solution should include:
 | 5 | Two Pointers | Valid Palindrome | `two_pointers/valid_palindrome.py` | `tests/test_valid_palindrome.py` |
 | 6 | Sliding Window | Longest Substring Without Repeating Characters | `sliding_window/longest_substring_without_repeating.py` | `tests/test_longest_substring_without_repeating.py` |
 | 7 | Stack | Valid Parentheses | `stack/valid_parentheses.py` | `tests/test_valid_parentheses.py` |
+| 8 | Queue | Number of Recent Calls | `queue/recent_counter.py` | `tests/test_recent_counter.py` |
+| 9 | Linked Lists | Reverse Linked List | `linked_lists/reverse_linked_list.py` | `tests/test_reverse_linked_list.py` |
+| 10 | Trees | Maximum Depth of Binary Tree | `trees/max_depth_binary_tree.py` | `tests/test_max_depth_binary_tree.py` |

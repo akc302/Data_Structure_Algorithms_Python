@@ -15,3 +15,6 @@ New structured practice lives in `daily_dsa/`.
 - Day 5: Two Pointers — Valid Palindrome
 - Day 6: Sliding Window — Longest Substring Without Repeating Characters
 - Day 7: Stack — Valid Parentheses
+- Day 8: Queue — Number of Recent Calls
+- Day 9: Linked Lists — Reverse Linked List
+- Day 10: Trees — Maximum Depth of Binary Tree
