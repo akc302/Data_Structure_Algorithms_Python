@@ -38,3 +38,4 @@ Each solution should include:
 | 8 | Queue | Number of Recent Calls | `queue/recent_counter.py` | `tests/test_recent_counter.py` |
 | 9 | Linked Lists | Reverse Linked List | `linked_lists/reverse_linked_list.py` | `tests/test_reverse_linked_list.py` |
 | 10 | Trees | Maximum Depth of Binary Tree | `trees/max_depth_binary_tree.py` | `tests/test_max_depth_binary_tree.py` |
+| 11 | Heaps + Priority Queues | Kth Largest Element in an Array | `heaps/kth_largest_element.py` | `tests/test_kth_largest_element.py` |
