@@ -39,3 +39,4 @@ Each solution should include:
 | 9 | Linked Lists | Reverse Linked List | `linked_lists/reverse_linked_list.py` | `tests/test_reverse_linked_list.py` |
 | 10 | Trees | Maximum Depth of Binary Tree | `trees/max_depth_binary_tree.py` | `tests/test_max_depth_binary_tree.py` |
 | 11 | Heaps + Priority Queues | Kth Largest Element in an Array | `heaps/kth_largest_element.py` | `tests/test_kth_largest_element.py` |
+| 13 | Dynamic Programming | Climbing Stairs | `dynamic_programming/climbing_stairs.py` | `tests/test_climbing_stairs.py` |
