@@ -1,0 +1,1 @@
+"""Greedy algorithm practice solutions."""
