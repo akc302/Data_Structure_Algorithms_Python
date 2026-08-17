@@ -20,3 +20,4 @@ New structured practice lives in `daily_dsa/`.
 - Day 10: Trees — Maximum Depth of Binary Tree
 - Day 11: Heaps + Priority Queues — Kth Largest Element in an Array
 - Day 13: Dynamic Programming — Climbing Stairs
+- Day 14: Greedy Algorithms — Jump Game
